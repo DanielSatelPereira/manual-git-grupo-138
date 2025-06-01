@@ -1,91 +1,91 @@
-# Instalação e Configuração
+# 2. Instalação e Configuração do Git
 
-## Como instalar o Git
+## 💾 Como instalar o Git
 
-### **Instalando no Windows:**
-1 - Abre o seu navegador.
+### 🪟 Windows
 
-2 - Acesse o site oficial do Git: https://git-scm.com
+1. Abra o seu navegador e acesse: [https://git-scm.com](https://git-scm.com)  
+2. Clique em **Download for Windows**  
+3. O download será iniciado automaticamente. Após o término, abra o instalador  
+4. Clique em **Next** nas etapas padrão  
+5. Em "Select Components", clique em **Next**  
+6. Na opção "Select Start Menu Folder", clique em **Next**  
+   (ou marque **Don't create a Start Menu Folder** se preferir)  
+7. Em "Choose the default editor used by Git", selecione seu editor favorito e clique em **Next**  
+8. Continue clicando em **Next** até a opção **Install**  
+9. Clique em **Install** e aguarde a instalação  
+10. Após finalizar, clique em **Finish**  
 
-3 - Clique em **Download for Windows**.
+> ✅ O Git está instalado no seu Windows!
 
-4 - Aperte em **Click here to download** e então ele vai começar a instalar.
+---
 
-5 - Após instalar, abra o instalador.
+### 🍎 macOS
 
-6 - Aperte em **Next**.
+A maneira mais simples de instalar o Git no macOS é utilizando o **Homebrew** (gerenciador de pacotes).
 
-7 - Escolha o caminho que você gostaria de baixar. Você pode deixar no padrão e então aperte em **Next**.
-
-8 - Em **Select Components** aperte em **Next** novamente.
-
-9 - Em **Select Start Menu Folder**, aperte em **Next**. Ou se você não queira criar uma pasta no menu iniciar, você pode clicar no quadrado onde está escrito **Don't create a Start Menu Folder** e aperte em **Next**.
-
-10 - Em **Chose the default editor used by Git** você deve escolher o seu editor padrão. Após escolher, aperte em **Next** novamente.
-
-11 - Nas próximas, você pode apertar tudo em **Next**, até chega no **Install** e então você aperte em **Install**. E então, o Git começará a ser instalado em seu Windows.
-
-12 - Após a instalação terminar, aperte em **Finish**. E pronto, o o Git está instalado em seu Windows. 
-
-### **Instalando no Mac**
-
-A forma mais fácil de instalar é usando o **Homebrew**, que é um gerenciador de pacotes para Mac.
-
-1 - Primeiro, abra o terminal.
-
-2 - Digite:
+1. Abra o **Terminal**  
+2. Digite o comando abaixo:
    ```bash
    brew install git
    ```
+3. Aguarde a instalação  
 
-   3 - E espere a instalação terminar.
+> ✅ O Git está instalado no seu macOS!
 
-   4 - Pronto, o Git foi instalado em seu Mac.
+---
 
-   ### **Instalando no Linux**
-   1 - Abra o terminal.
+### 🐧 Linux (Ubuntu/Debian)
 
-   2 - Digite esse comando:
+1. Abra o **Terminal**  
+2. Atualize os pacotes:
    ```bash
    sudo apt update
    ```
-3 - Digite o último comando:
+3. Instale o Git:
    ```bash
    sudo apt install git
    ```
-4 - Pronto, o Git foi instalado em seu Linux.
 
-## **Configurando**
+> ✅ O Git está instalado no seu Linux!
 
-1 - Abra o terminal
-- No Windows, abra o Git Bash
+---
 
-- No Mac ou Linux, abra o Terminal
+## ⚙️ Como configurar o Git
 
-2 - Digite esses comandos (com seu e-mail e nome que você usou para criar sua conta no GitHub) 
+Após instalar o Git, é importante configurar seu nome e e-mail, que serão usados nos commits.
+
+1. Abra o **Terminal** ou **Git Bash** (no Windows)  
+2. Digite os comandos abaixo, substituindo pelas suas informações:
    ```bash
-   git config --global user.name "Seu Nome Aqui"
-
-    git config --global user.email "seu@email.com"
+   git config --global user.name "Seu Nome"
+   git config --global user.email "seu@email.com"
    ```
-
-   3 - Para ver se o Git guardou seu nome e e-mail, digite:
+3. Para verificar se foi salvo corretamente:
    ```bash
    git config --list
    ```
 
-   4 - Pronto, a configuração está pronta!
+> ✅ Seu Git está configurado!
 
-   ## **Checagem da instalação**
+---
 
-   1 - No terminal (ou Git Bash), digite:
+## ✅ Checando a Instalação
+
+Para verificar se o Git está instalado corretamente:
+
+1. No terminal, digite:
    ```bash
    git --version
    ```
-
-   2 - Se aparecer algo como: 
-   ```bash
+2. Se aparecer algo como:
+   ```
    git version 2.49.0
    ```
+   Isso significa que a instalação foi concluída com sucesso!
 
-   3 - O Git foi instalado com sucesso!
+---
+
+## 📝 Dica
+
+Caso queira alterar seu nome ou e-mail depois, basta repetir os comandos `git config --global` com os novos valores.
