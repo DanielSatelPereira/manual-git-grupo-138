@@ -9,15 +9,15 @@
 - Ryan Alexandre da costa ([@ryanale007](https://github.com/Ryanale007))
 
 ## 📖 Índice
-//1. [Introdução ao Git e ao Controle de Versão](01-introducao.md)
+### 1. [Introdução ao Git e ao Controle de Versão](01-introducao.md)
 
-//2. [Instalação e Configuração do Git](02-instalacao-configuracao.md)
+### 2. [Instalação e Configuração do Git](02-instalacao-configuracao.md)
 
-//3. [Comandos Básicos](03-comandos-basicos.md)
+### 3. [Comandos Básicos](03-comandos-basicos.md)
 
-//4. [Branches e Merge](04-ramificacoes-merge.md)
+### 4. [Branches e Merge](04-ramificacoes-merge.md)
 
-//5. [GitHub e Pull Requests](05-pull-requests.md)
+### 5. [GitHub e Pull Requests](05-pull-requests.md)
 
 ## 📌 Objetivo do Projeto
 Criar um manual colaborativo em Markdown que ensine Git e GitHub para iniciantes, utilizando boas práticas de controle de versão em grupo.
