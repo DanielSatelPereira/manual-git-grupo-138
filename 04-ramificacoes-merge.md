@@ -1,4 +1,9 @@
 # 🌿 Branches e Merge
+<p align="center">
+  <img src="/imagens/imagem-exemplo-branchs.png" alt="Exemplo de Branches" />
+</p>
+
+
 
 ## 📌 4.1 - O que são branches
 
